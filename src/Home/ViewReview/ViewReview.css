@@ -1,0 +1,29 @@
+.wd-slider{
+    height: 300px;
+    margin-bottom: 3rem;
+}
+.bg-cover{
+    background: url('https://i.ibb.co/mJFDMrt/diana-macesanu-3ci-Hxbx9-H0-U-unsplash.jpg') no-repeat top center / cover;
+}
+.text-carasol{
+    color: aliceblue;
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: #a669cf8f;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 10px;
+}
+.text-carasol h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.text-carasol h2{
+    margin-top: 8px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    text-transform: capitalize;
+}

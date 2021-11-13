@@ -1,0 +1,97 @@
+.paper{
+    height: 380px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: #DDD;
+    position: relative;
+    overflow: hidden;
+}
+.paper::after{
+    content: '';
+    display: block;
+    border-width: 0px 75px 75px 0px;
+    border-style: solid;
+    border-color: #d7d7d7 transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.paper::after{
+    content: '';
+    display: block;
+    border-width: 0px 75px 75px 0px;
+    border-style: solid;
+    border-color: #d7d7d7 #FFF;
+    box-shadow: -5px 6px 10px rgb(129, 127, 127);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.paper > h1{
+    margin: 30px 210px;
+    font-family: cursive;
+}
+
+.paper > p{
+    padding: 0px 30px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #555;
+}
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #255d94;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }

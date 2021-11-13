@@ -1,0 +1,16 @@
+.offer-container{
+    background: url('https://i.ibb.co/fHtZ6gv/bg-3.jpg') fixed no-repeat top center / cover;
+    height: 100vh;
+}
+.mt-img{
+    margin-top:5rem;
+}
+.txt-contain{
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.txt-contain h1{
+    font-size: 3rem;
+    font-weight: 400;
+}

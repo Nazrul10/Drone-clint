@@ -1,0 +1,12 @@
+.dashboard-container{
+    overflow-y: hidden;
+}
+.dashboard{
+    background-color: red;
+};
+.dashboard h1{
+    padding: 5px;
+}
+.icon-nav{
+    color: gray;
+}

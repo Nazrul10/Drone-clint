@@ -1,0 +1,30 @@
+.form-submit form{
+    display: grid;
+    margin: 3rem;
+}
+.form-submit input{
+    
+    padding: 0.5rem;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.input-btn {background-image: linear-gradient(to right, #FBD3E9 0%, #BB377D  51%, #FBD3E9  100%)}
+.input-btn {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .input-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
